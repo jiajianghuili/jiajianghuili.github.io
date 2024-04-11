@@ -309,7 +309,7 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #f8f5ed; /*background light yellow */
 }
 
 input,
@@ -322,7 +322,7 @@ textarea {
 }
 
 a {
-  color: #428bca;
+  color: #351c75; /* text color deep purple */
   text-decoration: none;
 }
 
@@ -481,7 +481,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Georgia";
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -513,7 +514,7 @@ h6 .small,
 .h6 .small {
   font-weight: normal;
   line-height: 1;
-  color: #999999;
+  color: #444444;
 }
 
 h1,
@@ -529,7 +530,7 @@ h3 small,
 h1 .small,
 h2 .small,
 h3 .small {
-  font-size: 65%;
+  font-size: 50%;
 }
 
 h4,
@@ -551,6 +552,7 @@ h6 .small {
 h1,
 .h1 {
   font-size: 36px;
+  color:  #351c75;
 }
 
 h2,
@@ -581,7 +583,7 @@ h6,
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #2e4297;
 }
 
 ul,
