@@ -129,6 +129,8 @@ sub {
 
 img {
   border: 0;
+  /* margin-left: 10px;  */
+
 }
 
 svg:not(:root) {
@@ -322,7 +324,7 @@ textarea {
 }
 
 a {
-  color: #351c75; /* text color deep purple */
+  color: #101010; /* text color deep purple */
   text-decoration: none;
 }
 
@@ -533,7 +535,9 @@ h3 .small {
   font-size: 50%;
 }
 
-h4,
+h4 {  
+  margin-left: 10px; /* change edit margin indent */ 
+}
 h5,
 h6 {
   margin-top: 10px;
@@ -552,7 +556,8 @@ h6 .small {
 h1,
 .h1 {
   font-size: 36px;
-  color:  #351c75;
+  color:  #101010;
+  /* color:  #351c75;  header color purple */
 }
 
 h2,
@@ -578,6 +583,26 @@ h5,
 h6,
 .h6 {
   font-size: 12px;
+}
+
+
+/* .test a {
+  margin-left: 10px; 
+  float: left;
+  text-align: center;
+  overflow: auto; 
+}
+
+.test a img {
+  width: 300px;
+  border:2px solid white;  
+  border-radius: 50%; 
+}
+ */
+
+div {
+  /* display: flex; */
+  justify-content: space-between;
 }
 
 .page-header {
